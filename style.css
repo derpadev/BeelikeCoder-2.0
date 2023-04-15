@@ -1,10 +1,12 @@
 body {
     background-color: salmon;
+    padding: 0;
+    margin: 0;
 }
 #top {
     margin: auto;
     width: fit-content;
-    height: 768px;
+    height: 780px;
     display: flex;
     align-items: center;
 }
@@ -17,12 +19,14 @@ body {
 }
 #middle {
     align-items: center;
-    height: 768px;
+    height: 100px;
     display: flex;
-    margin: auto;
-    width: fit-content;
+    width: 100%;
+    background-color: #ff6a5e;
 }
 #header {
-    text-align: center;
+    padding-top: 65px;
+    padding-left: 10px;
     font-family: 'Satoshi';
+
 }
