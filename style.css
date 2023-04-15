@@ -1,0 +1,28 @@
+body {
+    background-color: salmon;
+}
+#top {
+    margin: auto;
+    width: fit-content;
+    height: 768px;
+    display: flex;
+    align-items: center;
+}
+#front-quote {
+    font-size: 50px;
+    text-align: center;
+    border: 10px salmon;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 600;
+}
+#middle {
+    align-items: center;
+    height: 768px;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+#header {
+    text-align: center;
+    font-family: 'Satoshi';
+}
