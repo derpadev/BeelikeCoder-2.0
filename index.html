@@ -4,13 +4,16 @@
         <title>Hackathon</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap" rel="stylesheet">
+        <script src="myscripts.js"></script>
     </head>
     <body>
         <div class="links">
             <ul>
-              <li><a class="nav" href="index.html">Home</a></li>
-              <li><a class="nav" href="#about-header">About</a></li>
-              <li><a class="nav" href="page2.html">Page 2</a></li>
+              <li><a class="nav" href="#index.html">Home</a></li>
+              <li><a class="nav" href="#mental-health">Mental Health</a></li>
+              <li><a class="nav" href="#resources">Resources</a></li>
+              <li><a class="nav" href="#quotes">Click Me</a></li>
+              <li><a class="nav" href="#about-us">About Us</a></li>
             </ul>
 
         </div>
@@ -21,8 +24,34 @@
                 <p> Do what you can<span id="period">.</span>"</p>
             </div>
         </div>
-        <div id="about-header"><u>About</u>
-            <div id="about-p">We made this website </div>
+        <div id="mental-health"><u>What is Mental Health?</u>
+            <div id="mental-p">Mental health is our emotional, psychological, and social well being. It affects all the ways we think, feel, and act. Some ways to maintain positive mental health are through: </div>
+            <div id="mental-list">
+                <li>Practicing Hobbies</li>
+                <li>Staying Connected With People</li>
+                <li>Being Physically Active</li>
+            </div>
+            <img src="meditation.jpg" alt="meditation">
+        </div>
+        <div id="resources"><u>Resources</u>
+            <div id="resources-p">It's easy to feel alone, but there are others who have had similar experiences. Help yourself by reaching out to Mental Health Resources!</div>
+            <div id="resource-list">
+                <li><a href="https://www.stopbullying.gov/">Bullying</a></li>
+                <li><a href="https://www.nimh.nih.gov/health/topics/depression">Depression</a></li>
+                <li><a href="https://afsp.org/">Suicide Prevention</a></li>
+            </div>
+        </div>
+        <div id="quotes"><u>Click To Get A Quote From Us Today!</u>
+            <FORM NAME="WordForm">  
+                <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
+                <INPUT TYPE=BUTTON VALUE="Click Me" onClick="PickRandomWord(document.WordForm);" id="button">
+            </FORM>
+        </div>
+        <div id="about-us"><u>About Us</u>
+            <div id="about-p">
+                <p>Q: How do you take care of your Mental Health!</p>
+                <p>"I like to spend time in a comfortable and productive environment like a coffee shop!" ~Devin Hua</p>
+            </div>
         </div>
         <div id="footer">
             <div id="header">
